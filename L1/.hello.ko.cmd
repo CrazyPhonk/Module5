@@ -1,0 +1,1 @@
+cmd_/home/egor/Module5/L1/hello.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/egor/Module5/L1/hello.ko /home/egor/Module5/L1/hello.o /home/egor/Module5/L1/hello.mod.o;  true

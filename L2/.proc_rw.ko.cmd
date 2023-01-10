@@ -1,0 +1,1 @@
+cmd_/home/egor/Module5/L2/proc_rw.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/egor/Module5/L2/proc_rw.ko /home/egor/Module5/L2/proc_rw.o /home/egor/Module5/L2/proc_rw.mod.o;  true
